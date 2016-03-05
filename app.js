@@ -17,7 +17,7 @@ function getLinks (site, callback) {
             window.$(site.cssSelectorPrefix + " a").each(function(){
                 links.push({
                     "text": window.$(this).text(),
-                    "url": window.$(this).attr("href")
+                    "url": window.$(this).prop("href")
                 });
             });
             callback(null, links);
