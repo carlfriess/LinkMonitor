@@ -1,0 +1,20 @@
+{
+    "interval": 60000,
+    "slack": {
+        "webhookUrl": "<SLACK_WEBHOOK_URL>",
+        "options": {
+            "username": "link-bot",
+            "channel": "#my-channel",
+            "icon_emoji": ":ghost:"
+        }
+    },
+    "sites": [
+
+        {
+            "name": "Carl Friess",
+            "url": "http://carlfriess.com",
+            "cssSelectorPrefix": "#webdesign"
+        }
+
+    ]
+}
